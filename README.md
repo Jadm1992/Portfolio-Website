@@ -1,40 +1,61 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
+# Devin Miller – Portfolio
 
-## Getting Started
+Welcome to the source code for my personal developer portfolio. This project is built using **Next.js**, **Tailwind CSS**, and deployed with **Azure Static Web Apps**.
 
-First, run the development server:
+## 🧠 About
+
+This is a dynamic and responsive portfolio built to showcase my background in IT support, system administration, and frontend development. Visitors can view:
+
+- A professional summary
+- My journey into tech
+- Projects I've worked on
+- Résumé preview/download
+- Contact form (with submission feedback)
+- Social/contact footer
+
+## 🚀 Tech Stack
+
+- [Next.js](https://nextjs.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- TypeScript
+- Git & GitHub
+- Azure Static Web Apps (Free tier)
+- Font Awesome (social icons)
+
+## 🛠 Local Development
+
+Clone the repo and run:
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Site will be live at: http://localhost:3000
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+## 📦 Build
 
-[API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+```bash
+npm run build
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) instead of React pages.
+Output:
+For deployment: .next/
 
-This project uses [`next/font`](https://nextjs.org/docs/pages/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🌐 Deployment
 
-## Learn More
+This project is continuously deployed via Azure Static Web Apps using GitHub Actions.
 
-To learn more about Next.js, take a look at the following resources:
+To deploy manually:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn-pages-router) - an interactive Next.js tutorial.
+```bash
+next build
+Then push to main on GitHub. Azure will handle the rest.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 📬 Contact
 
-## Deploy on Vercel
+Want to reach out or hire me?
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+LinkedIn
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/building-your-application/deploying) for more details.
+GitHub
+
+Email: devinmillertech@gmail.com
